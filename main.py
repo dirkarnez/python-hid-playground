@@ -1,7 +1,7 @@
 import hid
 
-vid = 1008	# Change it for your device
-pid = 22602	# Change it for your device
+vid = 1267	# Change it for your device
+pid = 1024	# Change it for your device
 mouse = hid.Device(vid, pid)
 
 while True:
